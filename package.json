@@ -1,0 +1,29 @@
+{
+  "name": "yalink-shorter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha --exit test/*.test.js"
+  },
+  "author": "Oleg Elantsev",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-promise-router": "^4.1.1",
+    "express-rate-limit": "^6.7.0",
+    "express-session": "^1.17.3",
+    "gcp-metadata": "^5.0.0",
+    "google-auth-library": "^8.1.0",
+    "mongoose": "^6.4.4",
+    "passport": "^0.6.0",
+    "passport-google-oauth": "^2.0.0"
+  }
+}
